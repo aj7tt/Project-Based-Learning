@@ -3,7 +3,9 @@
 ```
 switcher.addEventListener('click', function() {  
     document.body.classList.toggle('dark-theme')
-}); ```
+}); 
+
+```
 
 
 ### Light_Mode
