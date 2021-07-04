@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+ 
+:root {
+  --color-white: #f3f3f3;
+  --color-dark-blue: #1b1b32;
+  --color-dark-blue-alpha: rgba(27,27,50,0.7);
+  --color-green: #229e51;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* mobile friendly alternative to using background-attachment: fixed */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkblue);
+  background-image: linear-gradient(115deg,rgba(58, 58, 158, 0.8),rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem; 
+  line-height: 1.4;
+  color: var(--color-white);
+  font-weight: 100px;
+  margin: 0;
+}
+
+/*   bring everything together at center for all devices     */
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+header {
+  text-align: center;
+  line-height: 1.5rem; 
+  margin-top: 2rem;
+}
+
+h1{
+  font-size: 2.5rem;
+  padding-top:2.5rem;
+  font-weight: bold;
+}
+#description {
+  font-size: 1.125rem;
+  font-style: italic;
+}
+
+#survey-form {
+  background-color: var(--color-dark-blue);
+  background-color: var(--color-dark-blue-alpha);
+  padding: 1.5rem 1.5rem;
+  border-radius: 0.25rem;
+
+}
+
+.clue {
+  margin-left: 0.25rem;
+  font-size: 0.9rem;
+  color: #e4e4e4;
+}
+
+
+legend {
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+div {
+  margin-left: 1.5rem;
+}
+
+#form-group {
+  margin: 1.5rem !important;
+}
+
+form , label , p, input, select, textarea {
+  font-size: 1.25rem;
+  font-weight: 100;
+  padding: 1rem;
+  margin: 0.25rem;
+}
+
+
+input[type="text"], [type="email"] ,[type="number"], select{
+  width: 100%;
+  border: 1px solid blue;  
+
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+
+.input-textarea {
+  width: 100%;
+  font-size: 1.5rem;
+  background-color: var(--color-white);
+  padding: 0.5rem;
+}
+
+button{
+  width: 100%;
+  display: block;
+  padding: 0.75rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 100;
+  border-radius: 2px;
+  background-color: var(--color-green);
+
+}
+
+
+
+
+ 
