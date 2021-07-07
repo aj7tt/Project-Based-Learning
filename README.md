@@ -1,7 +1,6 @@
 ##  Project-Based-Learning💻
 
-[](https://static.vecteezy.com/system/resources/previews/000/522/899/non_2x/business-analysis-system-on-computer-laptop-and-graph-screen-web-development-and-coding-vector.jpg)
-
+[![repo-size](https://img.shields.io/github/repo-size/Aj7t/Project-Based-Learning/)](https://github.com/Aj7t/Project-Based-Learning/)
 
 ### Projects-Lists ✨
 
