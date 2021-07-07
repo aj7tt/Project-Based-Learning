@@ -1,6 +1,5 @@
 ##  Project-Based-Learning💻
 
-[![repo-size](https://img.shields.io/github/repo-size/Aj7t/Project-Based-Learning/)](https://github.com/Aj7t/Project-Based-Learning/)
 
 ### Projects-Lists ✨
 
