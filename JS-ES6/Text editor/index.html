@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>  TinyMCE</title>
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+	<script>
+		tinymce.init({  
+			selector:'textarea',
+			plugins: 'synonym image imagetools link emoticons insertdatetime textcolor colorpicker spellchecker print autosave',
+  			toolbar: 'undo redo |  bold italic underline strikethrough |  synonym | forecolor backcolor image link emoticons insertdatetime | alignleft aligncenter alignright alignjustify | indent outdent | print spellchecker restoredraft ',
+            browser_spellcheck : true
+		});
+	</script>
+	<script src="js/synonym.js"></script> <!-- custom plugin script -->
+</head>
+<body>
+    <h1 id="logo"> TextPad </h1>
+	<textarea name="demo-editor">Hello, world! </textarea>
+    <footer>
+        💌 <a href="https://github.com/Aj7t" target="_blank">@aj7t</a>
+		
+    </footer>
+
+</body>
+</html>

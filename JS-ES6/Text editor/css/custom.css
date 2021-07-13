@@ -1,0 +1,125 @@
+
+html {
+    color: red;
+    animation: color 5s linear infinite;
+  }
+  
+  @keyframes color {
+    33.3% { color: #0f0; }
+    66.7% { color: #00f; }
+  }
+
+/*background customization*/
+body{ 
+    opacity: 1;
+    background-color: #000;
+    
+}
+/*Container, container body, iframe*/
+body>div:first-of-type{
+	height: calc(100vh - 20px);
+}
+.mce-container-body,#demo-editor_ifr {
+    min-height: 100% !important;
+}
+/*Container body*/
+.mce-container-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+/*Editing area*/
+.mce-container-body .mce-edit-area {
+    position: absolute;
+    top: 69px;
+    bottom: 37px;
+    left: 0;
+    right: 0;
+}
+/*Footer*/
+.mce-tinymce .mce-statusbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*synonyms reults */
+.results-wrapper h4{
+	text-decoration: none;
+    text-align: center;
+	margin-bottom: px;
+    padding: 2px;
+    background-color: #cac7c7;
+}
+.results-wrapper #results{
+	height: 220px;
+	margin: 10px 0; 
+	overflow-y:auto;
+	cursor: pointer;
+}
+.results-wrapper #results > .synonym-result{
+	margin: 10px 5px; 
+	padding: 10px 8px;
+	font-size:18px;
+}
+.results-wrapper #results > .synonym-result:hover{
+	background-color: rgb(10, 12, 97);
+	color: rgb(255, 248, 248);
+}
+
+/*loading indicator*/
+.loader-wrapper{
+	text-align: center;
+}
+.loader-wrapper .spinner {
+  border: 8px solid #236af0;
+  border-radius: 50%;
+  border-top: 8px solid rgb(0, 0, 0);
+  width: 40px;
+  height: 40px;
+  -webkit-animation: spin 0.5s linear infinite;
+  animation: spin 0.5s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+#logo {
+    background-color: #000;
+    margin: 0%;
+    margin-top: -8px;
+    padding: 10px;
+    text-align: center;
+    color: inherit;
+    font-size: 15px;
+    color: currentColor;
+    font-family: monospace;
+}
+
+
+footer {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    font-size: .7rem;
+    text-align: center;
+    font-weight: bold;
+    color : currentColor;
+}
+
+footer a {
+    font-family: cursive;
+    font-weight: bold;
+    color: currentColor;
+
+}   
