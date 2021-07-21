@@ -1,7 +1,7 @@
 ##  Project-Based-Learning💻
 
 <!--  |  project Name  | [source-code]() | [Demo]() | |  --->
-### Projects-Lists ✨
+## CSS3 Project-Lists ✨
 
 
 | Project Name | Source-Code |   Demo   | Descriptions |
@@ -11,7 +11,7 @@
 
 
 
-## JS project List
+## JS projectLists
 
 | Project Name | Source-Code |   Demo   | Descriptions |
 | --- | --- | --- | --- | 
